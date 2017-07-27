@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "361133053847",
+    "firebase_url": "https://stories-a4b67.firebaseio.com",
+    "project_id": "stories-a4b67",
+    "storage_bucket": "stories-a4b67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361133053847:android:ea5075230fb4d60f",
+        "android_client_info": {
+          "package_name": "com.d4vinci.stories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361133053847-vgql9d2sqjjjniir38u02l5pllc33jrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Trk8YlbstOKypjsusVPyQMz1icYkG2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
