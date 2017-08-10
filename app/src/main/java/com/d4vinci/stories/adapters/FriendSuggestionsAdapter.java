@@ -1,5 +1,7 @@
 package com.d4vinci.stories.adapters;
 
+import android.view.View;
+
 import com.d4vinci.stories.R;
 import com.d4vinci.stories.holders.FriendSuggestionHolder;
 import com.d4vinci.stories.models.User;
@@ -20,8 +22,9 @@ public class FriendSuggestionsAdapter extends FirebaseRecyclerAdapter<User, Frie
     @Override
     protected void populateViewHolder(FriendSuggestionHolder viewHolder, User friend, int position) {
         if(friend.getUid().equals(FirebaseAuth.getInstance().getCurrentUser().getUid())) {
-            return;
+            viewHolder.itemView.setVisibility(View.GONE);
         } else {
+            viewHolder.itemView.setVisibility(View.VISIBLE);
             viewHolder.updateUI(friend);
         }
     }
